@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<ScrollPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="operating.window.SheetWindowController">
+<content>
+    <BorderPane fx:id="root">
+        <top>
+            <fx:include fx:id="topPart" source="../top/newTop.fxml" />
+        </top>
+
+        <center>
+            <fx:include fx:id="tablePart" source="../table/tablePart.fxml" />
+        </center>
+
+        <left>
+            <fx:include fx:id="leftPart" source="../left/leftPart.fxml" />
+        </left>
+    </BorderPane>
+</content>
+</ScrollPane>
